@@ -1,0 +1,3 @@
+from gui_optimized import create_optimized_gui
+
+create_optimized_gui()
