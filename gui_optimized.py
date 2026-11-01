@@ -8,8 +8,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 from graph_data import graph
 from ford_fulkerson import ford_fulkerson
-from bottleneck import calculate_edge_flows, analyze_bottlenecks
-
+from water_bottleneck import calculate_edge_flows, analyze_bottlenecks
 
 def create_optimized_gui():
     root = tk.Tk()

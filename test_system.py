@@ -1,6 +1,6 @@
 from graph_data import graph
 from ford_fulkerson import ford_fulkerson
-from bottleneck import calculate_edge_flows, analyze_bottlenecks
+from water_bottleneck import calculate_edge_flows, analyze_bottlenecks
 from optimization import optimize_capacity
 from visualization import draw_graph
 
